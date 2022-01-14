@@ -29,7 +29,47 @@ li {
     display: inline;
 }
 
-a {
+a, .secondary {
     text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.top-content {
+    display: flex;
+}
+
+.top-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.top-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+.main {
     color: white;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.pic {
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 4px 20px;
+    border-radius: 8px;
+}
+
+.top-button {
+    align-self: flex-start;
 }
