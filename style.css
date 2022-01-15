@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 }
 
 .top {
@@ -59,6 +60,7 @@ a, .secondary {
     color: white;
     font-size: 48px;
     font-weight: extra-bold;
+    margin-bottom: -20px;
 }
 
 .pic {
@@ -68,8 +70,9 @@ a, .secondary {
 button {
     background-color: #3882f6;
     color: white;
-    padding: 4px 20px;
+    padding: 8px 32px;
     border-radius: 8px;
+    border: #3882f6;
 }
 
 .top-button {
