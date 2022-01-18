@@ -135,3 +135,36 @@ button {
     font-size: 24px;
     font-weight: 600;
 }
+
+.bot-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+}
+
+.bot-content {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 40px 120px;
+}
+
+.bot-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bot-right {
+    border: 2px solid #e5e7eb;
+}
+
+#call {
+    color: #f9faf8;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: -5px;
+}
