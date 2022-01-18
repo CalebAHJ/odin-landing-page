@@ -78,3 +78,37 @@ button {
 .top-button {
     align-self: flex-start;
 }
+
+.mid-content-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subhheader {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
+.cards {
+    display: flex;
+}
+
+.card-full {
+    margin: 10px;
+}
+
+.card {
+    min-width: 160px;
+    min-height: 160px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.card-text {
+    color: rgb(58, 58, 58);
+    font-size: 18px;
+    text-align: center;
+}
