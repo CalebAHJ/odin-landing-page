@@ -112,3 +112,24 @@ button {
     font-size: 18px;
     text-align: center;
 }
+
+.mid-content-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quotee {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 600;
+}
