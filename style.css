@@ -84,6 +84,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 50px 200px 100px 200px;
 }
 
 .subhheader {
@@ -119,6 +120,7 @@ button {
     justify-content: center;
     align-items: center;
     background-color: #e5e7eb;
+    padding: 100px 200px;
 }
 
 .quote {
